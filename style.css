@@ -1,0 +1,76 @@
+*{
+    background-color: #E5E5FD;
+    margin: 0;
+}
+
+
+.container{
+    height: 100%;
+    border: 10px solid #1D1E4C;
+}
+.content{
+    max-width: 800px;
+    margin: 100px auto;
+}
+
+.topsection{
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    align-items: flex-end;
+}
+
+
+img{
+    height: 300px;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+}
+.topsection h1{
+    color: black;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+    margin: 0;
+    text-align: end;
+}
+
+
+.topsection h4{
+    font-size: 25px;
+    text-align: end;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+
+.botsection h1{
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 50px;
+}
+
+
+.botsection h2{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.botsection p{
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 3px;
+    line-height: 25px;
+}
+
+li{
+    padding-top: 5px;
+}
+
+#wikipedia{
+    padding-top: 20px;
+    text-align: end;
+    word-spacing: 1px;
+    font-size: small;
+}
